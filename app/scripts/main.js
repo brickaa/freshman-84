@@ -6,25 +6,20 @@ $(document).ready(function() {
   var data = [];
 
   //Load JSON data from Google Spreadsheet
-  $.getJSON('https://spreadsheets.google.com/feeds/list/1Vdt46LVbwiivYQw3qNq2Qn7qZktYEIEztKF9z5Ma3Vc/od6/public/values?alt=json', function(json) {
+  $.getJSON('https://spreadsheets.google.com/feeds/list/1ZBTQHa7qtC7enQkIm3JutxGnZlh5TwWME2WRKMstL7g/od6/public/values?alt=json', function(json) {
     data = json;
   }).done( function() {
     console.log(data.feed.entry[0]);
-    // buildPortfolio(data);
+    build(data);
   });
 
-  // function buildPortfolio(data) {
+  function build(data) {
 
-  //   for (var i = 0; i < data.feed.entry.length; i++) {
-  //     entry = data.feed.entry[i];
-  //     console.log(data.feed.entry[i]);
-  //     $('<li>' +
-  //       '<h3><a href="' + entry.gsx$url.$t +'">' + entry.title.$t + '</a></h3>' +
-  //       '<p>' + entry.gsx$date.$t + '</p>' +
-  //       '<img src="' + entry.gsx$img.$t + '" />' +
-  //       '<p>' + entry.gsx$desc.$t + '</p>' +
-  //     '</li>').appendTo('.list-grid');
-  //   }
-  // }
+    for (var i = 0; i < data.feed.entry.length; i++) {
+      var model = data.feed.entry[i];
+      console.log(model.gsx$name.$t);
+      // $('<div>code</div>').appendTo('.whatever');
+    }
+  }
 
 });
