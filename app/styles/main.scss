@@ -1,2 +1,15 @@
 @import 'bourbon/dist/bourbon';
 @import 'neat/app/assets/stylesheets/neat';
+
+// News Apps list-style-position:
+
+@import 'newsapps-styles/base/normalize';
+@import 'newsapps-styles/base/scaffold';
+@import 'newsapps-styles/base/typography';
+
+@import 'newsapps-styles/helpers/colors';
+@import 'newsapps-styles/helpers/variables';
+@import 'newsapps-styles/helpers/placeholders';
+
+@import 'newsapps-styles/theme/base-theme';
+@import 'newsapps-styles/theme/prose';
