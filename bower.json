@@ -2,7 +2,7 @@
   "name": "freshman-84",
   "private": true,
   "dependencies": {
-    "newsapps-styles": "texastribune/newsapps-styles#0.4",
+    "newsapps-styles": "texastribune/newsapps-styles#base_theme",
     "pym.js": "~0.3.1"
   }
 }
