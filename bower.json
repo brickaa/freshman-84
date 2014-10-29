@@ -1,7 +1,8 @@
 {
   "name": "freshman-84",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "jquery": "1",
     "newsapps-styles": "texastribune/newsapps-styles#base_theme",
     "pym.js": "~0.3.1"
   }
