@@ -35,17 +35,16 @@ $(document).ready(function() {
             '<img src="http://www.fillmurray.com/131/197">' +
           '</div>' +
           '<div class="info">' +
-            '<h3>' + name + ' (' + party + ') &mdash; HD-#</h3>' +
-            '<p>Here is a brief biography of this person. Like how they claimed Mount Everest, took over the family fridge delivery business and survive a monsoon wedding. Very informative, yet concise.</p>' +
+            '<h3>' + name + ' (' + party + ') &mdash; HD-' + district + '</h3>' +
+            '<p>Here is a brief biography of this person. Like how they claimed Mount Everest, took over the family fridge delivery business and survived a monsoon wedding. Very informative, yet concise.</p>' +
             '<ul>' +
-              '<li><span class="header">Hometown: </span> </li>' +
-              '<li><span class="header">Age: </span> </li>' +
-              '<li><span class="header">Family: </span> </li>' +
-            '</ul>' +
-            '<ul>' +
-              '<li><span class="header">Occupation: </span> </li>' +
-              '<li><span class="header">Education: </span> </li>' +
-              '<li><span class="header">Religion: </span> </li>' +
+              '<li><span class="header">Hometown: </span>' + hometown + ' </li>' +
+              '<li><span class="header">Age: </span>' + age + '  </li>' +
+              '<li><span class="header">Relationship status: </span>' + relationship + '  </li>' +
+              '<li><span class="header">Children: </span>' + kids + '  </li>' +
+              '<li><span class="header">Religion: </span>' + religion + '  </li>' +
+              '<li><span class="header">Occupation: </span>' + occupation + '  </li>' +
+              '<li><span class="header">Education: </span>' + education + '  </li>' +
             '</ul>' +
           '</div>' +
           '<hr class="yellow">' +
