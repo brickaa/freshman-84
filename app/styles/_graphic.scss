@@ -1,0 +1,41 @@
+body {
+  background: $white;
+}
+
+.freshman {
+
+}
+
+.headshot {
+  float: left;
+  margin-right: 1em;
+
+  img {
+    max-width: 131px;
+  }
+}
+
+.info {
+  display: inline-block;
+  width: 66%;
+}
+
+// Overrides
+.prose {
+  h3 {
+    margin: 0 0 1em 0;
+  }
+  ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 49%;
+  }
+
+  li {
+    width: 30%;
+  }
+}
+
+
