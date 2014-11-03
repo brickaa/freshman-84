@@ -13,7 +13,7 @@ $(document).ready(function() {
     for (var i = 0; i < senate.length; i++) {
       $('<div class="prose freshman">' +
           '<div class="headshot">' +
-            // '<img src="//s3.amazonaws.com/static.texastribune.org/media/IncomingFreshman2015/'+ senate[i].Photo_URL + '">' +
+            '<img src="//s3.amazonaws.com/static.texastribune.org/media/IncomingFreshman2015/'+ senate[i].Photo_URL + '">' +
           '</div>' +
           '<div class="info">' +
             '<h3>' + senate[i].Name + ' (' + senate[i].Party + ') &mdash; SD-' + senate[i].District + '</h3>' +
